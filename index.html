@@ -1,68 +1,37 @@
 <!DOCTYPE html>
 <html lang="uk">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Ringly - Продаж розумних кілець</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-
-    <!-- Header -->
-    <header>
-        <div class="logo">
-            <a href="#">Ringly</a>
-        </div>
-        <nav>
-            <a href="#">Про нас</a>
-            <a href="#">Контакти</a>
-            <a href="#">Особистий кабінет</a>
-        </nav>
-    </header>
-
-    <!-- Main Banner -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    />
+  </head>
+  <body>
+    <div id="header"></div>
     <section class="main-banner">
-        <div class="ring-animation" id="ring"></div>
-        <h1>Новий продукт: Розумне кільце</h1>
-        <p>Наша команда старанно працювала над розробкою цього інноваційного продукту</p>
+      <div class="ring-animation" id="ring"></div>
+      <h1>Новий продукт: Розумне кільце</h1>
+      <p>
+        Наша команда старанно працювала над розробкою цього інноваційного
+        продукту
+      </p>
     </section>
-
-    <!-- Products Carousel -->
     <section class="products-carousel">
-        <div class="carousel">
-            <!-- Продукти будуть динамічно завантажені через JavaScript з products.json -->
-            <div class="carousel-buttons left">&lt;</div>
-            <div class="carousel-buttons right">&gt;</div>
-        </div>
+      <div class="carousel">
+        <div class="carousel-buttons left">&lt;</div>
+        <div class="carousel-buttons right">&gt;</div>
+      </div>
     </section>
-
-    <!-- Reviews -->
-    <section class="reviews">
-        <div class="review">
-            <img src="images/client1.jpg" alt="Клієнт 1">
-            <div>
-                <p>“Дуже задоволений покупкою! Кільце стильне та зручне.”</p>
-                <p>Оцінка: 5/5</p>
-            </div>
-        </div>
-        <div class="review">
-            <img src="images/client2.jpg" alt="Клієнт 2">
-            <div>
-                <p>“Функції кільця перевершили мої очікування, рекомендую.”</p>
-                <p>Оцінка: 4.5/5</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer>
-        <p>Адреса: вул. Технологічна, 23, Київ, Україна</p>
-        <p>Телефон: +380 44 123 4567</p>
-        <p>Email: info@ringly.com</p>
-    </footer>
-
-    <!-- Підключення JavaScript -->
+    <div id="reviews"></div>
+    <div id="footer"></div>
     <script src="js/script.js"></script>
-</body>
+    <script src="js/includes.js"></script>
+    <script src="js/minimap.js"></script>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+  </body>
 </html>

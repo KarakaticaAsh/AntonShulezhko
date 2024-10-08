@@ -1,19 +1,19 @@
 {
-    "products": [
-        {
-            "name": "Розумне кільце - Silver Edition",
-            "price": "₴2500",
-            "image": "images/ring1.jpg"
-        },
-        {
-            "name": "Розумне кільце - Black Edition",
-            "price": "₴3000",
-            "image": "images/ring2.jpg"
-        },
-        {
-            "name": "Розумне кільце - Gold Edition",
-            "price": "₴3500",
-            "image": "images/ring3.jpg"
-        }
-    ]
+  "products": [
+    {
+      "name": "Розумне кільце - Silver Edition",
+      "price": "₴2500",
+      "image": "images/ring1.jpg"
+    },
+    {
+      "name": "Розумне кільце - Black Edition",
+      "price": "₴3000",
+      "image": "images/ring2.jpg"
+    },
+    {
+      "name": "Розумне кільце - Gold Edition",
+      "price": "₴3500",
+      "image": "images/ring3.jpg"
+    }
+  ]
 }
